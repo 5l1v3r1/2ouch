@@ -6,7 +6,7 @@ echo "Installing 2ouch..."
 #################################
 # Allow execution of the script
 #################################
-chmod a+rx ./bin/2ouch
+chmod a+x ./bin/2ouch
 
 #################################
 # Link the folder to the /usr/bin 
