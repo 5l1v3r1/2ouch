@@ -11,7 +11,7 @@ chmod a+x 2ouch
 #################################
 # Link the folder to the /usr/bin 
 #################################
-cp $PWD/2ouch /usr/local/bin > /dev/null 2>&1 || { echo "Run as sudo?"; exit 1; }
+cp $PWD/2ouch /usr/local/bin > /dev/null 2>&1 || { echo "Error. Please run as sudo?"; exit 1; }
 
 #################################
 # Todo: Add a man page...
