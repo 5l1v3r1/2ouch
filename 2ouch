@@ -1,0 +1,12 @@
+#!/usr/bin
+
+####################################
+# Make sure an argument is specified
+####################################
+if [ -z $1 ]; then echo "You must specify a file to create"; fi
+
+####################################
+# Make the dir and touch the file
+####################################
+mkdir -p "$(dirname "$1")" && touch "$1"
+
